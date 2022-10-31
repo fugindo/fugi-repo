@@ -2,7 +2,7 @@
 
 #### Youtube Channel
 | Nama | Link  |
-| :--- | :--- | <!-- YoutubeChannelGeneratorStart -->
+| :--- | :--- |
 | Erico Darmawan Handoyo | [Youtube](https://www.youtube.com/c/EricoDarmawanHandoyo)
 | Progammer zaman now | [Youtube](https://www.youtube.com/c/ProgrammerZamanNow)
 | Abdul Aziz Ahwan | [Youtube](https://www.youtube.com/c/AbdulAzizAhwanID)
