@@ -38,6 +38,15 @@ List youtuberList = [
     <<< tambahkan item baru disini
 ];
 
+or
+
+List contributorList = [
+    ...,
+    ...,
+    ...,
+    <<< tambahkan item baru disini
+];
+
 3. Jalankan generator
 dart generator.dart
 
