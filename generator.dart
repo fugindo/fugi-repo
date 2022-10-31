@@ -73,7 +73,7 @@ void main() {
     var item = youtuberList[i];
     var youtube =
         item["youtube"] == null ? "" : "[Youtube](${item["youtube"]})";
-    var tiktok = item["tiktok"] == null ? "" : "[TikTok](${item["tiktok"]})";
+    var tiktok = item["tiktok"] == null ? "" : " . [TikTok](${item["tiktok"]})";
     newContent.add("""
 | ${item["name"]} | $youtube $tiktok
 """
