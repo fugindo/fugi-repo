@@ -71,8 +71,11 @@ void main() {
   ];
   for (var i = 0; i < youtuberList.length; i++) {
     var item = youtuberList[i];
+    var youtube =
+        item["youtube"] == null ? "" : "[Youtube](${item["youtube"]})";
+    var tiktok = item["tiktok"] == null ? "" : "[TikTok](${item["tiktok"]})";
     newContent.add("""
-| ${item["name"]} | [Youtube](${item["youtube"]})
+| ${item["name"]} | $youtube $tiktok
 """
         .trim());
   }
