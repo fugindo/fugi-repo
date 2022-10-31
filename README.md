@@ -9,6 +9,9 @@ https://www.youtube.com/watch?v=AybdvU3XnZo
 - Tutorial Install Flutter di Linux Ubuntu<br>
 https://www.youtube.com/watch?v=1cRzmxfo7Sw
 
+- Tutorial Install Dart dan Flutter 3 di Windows 10 & 11<br>
+https://www.youtube.com/watch?v=Dc7j8FF3zp4
+
 - Install Flutter tanpa Android Studio<br>
 https://www.youtube.com/watch?v=SE4s8ewcL0I
 
