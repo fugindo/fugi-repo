@@ -4,15 +4,15 @@
 | Nama | Link  |
 | :---   | :--- |
 <!-- YoutubeChannelGeneratorStart -->
-| Erico Darmawan Handoyo | [Youtube](https://www.youtube.com/c/EricoDarmawanHandoyo) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . [GitHub](https://github.com/rsyd29) | Hacker
-| Progammer zaman now | [Youtube](https://www.youtube.com/c/ProgrammerZamanNow) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . [GitHub](https://github.com/rsyd29) | Hacker
-| Abdul Aziz Ahwan | [Youtube](https://www.youtube.com/c/AbdulAzizAhwanID) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . [GitHub](https://github.com/rsyd29) | Hacker
-| Kuldi Project | [Youtube](https://www.youtube.com/c/KuldiiProject) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . [GitHub](https://github.com/rsyd29) | Hacker
-| Kopianan | [Youtube](https://www.youtube.com/c/KopiAnan) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . [GitHub](https://github.com/rsyd29) | Hacker
-| Capek Ngoding | [Youtube](https://www.youtube.com/c/CapekNgoding) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . [GitHub](https://github.com/rsyd29) | Hacker
-| Code with Bahri | [Youtube](https://www.youtube.com/c/SaifulBahri27) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . [GitHub](https://github.com/rsyd29) | Hacker
-| Concept Coder | [Youtube](https://www.youtube.com/user/saylhendra) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . [GitHub](https://github.com/rsyd29) | Hacker
-| Banua coder | [Youtube](https://www.youtube.com/channel/UC0SrBwl_lIlvR_wpYcmCG8w) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . [GitHub](https://github.com/rsyd29) | Hacker
+| Erico Darmawan Handoyo | [Youtube](https://www.youtube.com/c/EricoDarmawanHandoyo) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . |
+| Progammer zaman now | [Youtube](https://www.youtube.com/c/ProgrammerZamanNow) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . |
+| Abdul Aziz Ahwan | [Youtube](https://www.youtube.com/c/AbdulAzizAhwanID) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . |
+| Kuldi Project | [Youtube](https://www.youtube.com/c/KuldiiProject) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . |
+| Kopianan | [Youtube](https://www.youtube.com/c/KopiAnan) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . |
+| Capek Ngoding | [Youtube](https://www.youtube.com/c/CapekNgoding) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . |
+| Code with Bahri | [Youtube](https://www.youtube.com/c/SaifulBahri27) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . |
+| Concept Coder | [Youtube](https://www.youtube.com/user/saylhendra) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . |
+| Banua coder | [Youtube](https://www.youtube.com/channel/UC0SrBwl_lIlvR_wpYcmCG8w) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . |
 <!-- YoutubeChannelGeneratorEnd -->
 ### Contributors
 

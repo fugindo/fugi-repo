@@ -66,7 +66,7 @@ void main() {
   for (var i = 0; i < youtuberList.length; i++) {
     var item = youtuberList[i];
     newContent.add("""
-| ${item["name"]} | [Youtube](${item["youtube"]}) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . [GitHub](https://github.com/rsyd29) | Hacker
+| ${item["name"]} | [Youtube](${item["youtube"]}) . [Linkedin](https://www.linkedin.com/in/budimanrasyid/) . |
 """
         .trim());
   }
