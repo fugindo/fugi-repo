@@ -30,7 +30,7 @@
 
 ```
 1. Edit generator.dart
-2. Tambahkan item baru ke dalam list youtuberList.dart
+2. Tambahkan item baru ke dalam list youtuberList atau contributorList
 List youtuberList = [
     ...,
     ...,
