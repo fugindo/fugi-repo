@@ -2,8 +2,16 @@
 
 #### Youtube Channel
 | Nama | Link  |
-| :--- | :--- |
+| :--- | :--- | <!-- YoutubeChannelGeneratorStart -->
 | Erico Darmawan Handoyo | [Youtube](https://www.youtube.com/c/EricoDarmawanHandoyo)
+| Progammer zaman now | [Youtube](https://www.youtube.com/c/ProgrammerZamanNow)
+| Abdul Aziz Ahwan | [Youtube](https://www.youtube.com/c/AbdulAzizAhwanID)
+| Kuldi Project | [Youtube](https://www.youtube.com/c/KuldiiProject)
+| Kopianan | [Youtube](https://www.youtube.com/c/KopiAnan)
+| Capek Ngoding | [Youtube](https://www.youtube.com/c/CapekNgoding)
+| Code with Bahri | [Youtube](https://www.youtube.com/c/SaifulBahri27)
+| Concept Coder | [Youtube](https://www.youtube.com/user/saylhendra)
+| Banua coder | [Youtube](https://www.youtube.com/channel/UC0SrBwl_lIlvR_wpYcmCG8w)
 <!-- YoutubeChannelGeneratorEnd -->
 ### Contributors
 
