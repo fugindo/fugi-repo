@@ -18,6 +18,7 @@
 
 ### Contributors
 ---
+<i>Teman2 yang belum mendaftarkan diri sebagai kontributor, cek tutorialnya dibawah yaa </i>
 <!-- ContributorGeneratorStart -->
 | Nama | Link  |
 | :--- | :--- |
