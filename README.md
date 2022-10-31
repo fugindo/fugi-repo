@@ -40,4 +40,21 @@
 | Muhammad Arif | - | - | Hacker
 | Deny Ocr | - | [Youtube](https://www.youtube.com/c/CapekNgoding) . [Facebook](https://www.facebook.com/profile.php?id=100071170189683) . [GitHub](https://github.com/denyocrworld) | Mentor
 
+### Cara menambahkan link dengan Generator
+---
 
+```
+1. edit generator.dart
+2. tambahkan item baru ke dalam list youtuberList.dart
+List youtuberList = [
+    ...,
+    ...,
+    ...,
+    <<< tambahkan item baru disini
+];
+
+3. jalankan generator
+dart generator.dart
+
+4. selesai, readme akan terupdate
+```
