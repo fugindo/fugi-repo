@@ -22,10 +22,12 @@ List youtuberList = [
   {
     "name": "Capek Ngoding",
     "youtube": "https://www.youtube.com/c/CapekNgoding",
+    "tiktok": "https://www.tiktok.com/@codingwithdeny"
   },
   {
     "name": "Code with Bahri",
     "youtube": "https://www.youtube.com/c/SaifulBahri27",
+    "tiktok": "https://www.tiktok.com/@codewithbahri"
   },
   {
     "name": "Concept Coder",
