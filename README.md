@@ -44,8 +44,8 @@
 ---
 
 ```
-1. edit generator.dart
-2. tambahkan item baru ke dalam list youtuberList.dart
+1. Edit generator.dart
+2. Tambahkan item baru ke dalam list youtuberList.dart
 List youtuberList = [
     ...,
     ...,
@@ -53,8 +53,8 @@ List youtuberList = [
     <<< tambahkan item baru disini
 ];
 
-3. jalankan generator
+3. Jalankan generator
 dart generator.dart
 
-4. selesai, readme akan terupdate
+4. Selesai, readme akan terupdate
 ```
