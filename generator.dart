@@ -62,7 +62,13 @@ void main() {
     }
   }
 
-  var newContent = [];
+  var newContent = [
+    """
+| Nama | Link  |
+| :--- | :--- |
+"""
+        .trim()
+  ];
   for (var i = 0; i < youtuberList.length; i++) {
     var item = youtuberList[i];
     newContent.add("""

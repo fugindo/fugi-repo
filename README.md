@@ -1,8 +1,8 @@
 # Flutter User Group Indonesia
 
 #### Youtube Channel
-| Nama | Link  |
  <!-- YoutubeChannelGeneratorStart -->
+| Nama | Link  |
 | :--- | :--- |
 | Erico Darmawan Handoyo | [Youtube](https://www.youtube.com/c/EricoDarmawanHandoyo)
 | Progammer zaman now | [Youtube](https://www.youtube.com/c/ProgrammerZamanNow)
