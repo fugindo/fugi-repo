@@ -1,4 +1,5 @@
 ### Fugi Repo
+---
 
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
@@ -6,6 +7,7 @@
 | git diff     | git diff       | git diff      |
 
 ### Youtuber Flutter
+---
 
 | Nama | Email    | Social Media  | Sebagai  |
 | :---   | :--- | :--- | :--- |
