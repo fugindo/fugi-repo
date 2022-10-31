@@ -1,15 +1,15 @@
 # Flutter User Group Indonesia
 ### Tutorial Flutter
-- Tutorial Install Flutter di Windows
+- Tutorial Install Flutter di Windows<br>
 https://www.youtube.com/watch?v=asNdz10WR6w
 
-- Tutorial Install Flutter di Windows 11
+- Tutorial Install Flutter di Windows 11<br>
 https://www.youtube.com/watch?v=AybdvU3XnZo
 
-- Tutorial Install Flutter di Linux Ubuntu
+- Tutorial Install Flutter di Linux Ubuntu<br>
 https://www.youtube.com/watch?v=1cRzmxfo7Sw
 
-- Install Flutter tanpa Android Studio
+- Install Flutter tanpa Android Studio<br>
 https://www.youtube.com/watch?v=SE4s8ewcL0I
 
 #### Youtube Channel
