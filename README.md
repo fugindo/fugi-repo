@@ -1,7 +1,7 @@
 # Flutter User Group Indonesia
 
 ### index.html
-https://tinyurl.com/fugi-repo
+https://tinyurl.com/fugi-rank
 
 ### Tutorial Flutter
 - Tutorial Install Flutter di Windows<br>
