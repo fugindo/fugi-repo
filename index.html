@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <img src="logo.png" style="width: 160px; margin-bottom: 10px;" />
+                <img src="logo.png" style="width: 160px; margin-bottom: 30px;" />
                 <table id="main-table" class="table table-dark table-striped"
                     style="max-width: 800px; margin: 0px auto;">
                     <thead>
@@ -46,9 +46,12 @@
 
 
         async function loadData(username) {
-            return await axios.get(
-                `https://www.codewars.com/api/v1/users/${username}`
-            );
+            var response = await $.ajax({
+                url: `https://www.codewars.com/api/v1/users/${username}`,
+                type: "GET",
+                dataType: 'json'
+            });
+            return response;
         }
 
         var fetchedCount = 0;
@@ -61,7 +64,7 @@
                 $("#main-table tbody").append(`
                     <tr>
                         <td>${i + 1}</td>
-                        <td>${item["name"]}</td>
+                        <td style='text-align: left;'>${item["name"]}</td>
                         <td>${item["honor"]}</td>
                         <td>${item["dart_kyu"]}</td>
                         <td>${item["dart_score"]}</td>
@@ -71,20 +74,20 @@
         }
 
         async function main() {
-            // users = users.splice(0, 5);
+            users = users.splice(0, 5);
             for (var i = 0; i < users.length; i++) {
                 var item = users[i];
                 loadData(item["username"]).then(function (response) {
-                    var username = response.data["username"];
+                    var username = response.username;
                     var index = users.findIndex(i => i["username"] == username);
                     console.log(index + " : " + username);
 
                     var rowItem = users[index];
 
-                    rowItem["honor"] = response.data?.honor ?? 0;
-                    if (response.data?.ranks?.languages?.dart != null) {
-                        rowItem["dart_kyu"] = response.data["ranks"]["languages"]["dart"]["rank"];
-                        rowItem["dart_score"] = response.data["ranks"]["languages"]["dart"]["score"];
+                    rowItem["honor"] = response?.honor ?? 0;
+                    if (response?.ranks?.languages?.dart != null) {
+                        rowItem["dart_kyu"] = response.ranks.languages.dart.rank;
+                        rowItem["dart_score"] = response.ranks.languages.dart.score;
                     }
 
                     rowItem["honor"] = rowItem["honor"] ?? 0;
