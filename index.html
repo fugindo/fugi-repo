@@ -6,12 +6,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 </head>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table id="main-table" class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Honour</th>
+                            <th>Dart (Rank)</th>
+                            <th>Dart (Score)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 
-    <h3>Test</h3>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        // https://www.codewars.com/api/v1/users/denyocrworld
+        var users = [
+            { 'name': 'Saiful Bahri', 'username': 'bahrie127' }, { 'name': 'Deny', 'username': 'denyocrworld' }, { 'name': 'Fadillah Nur Faqih', 'username': 'fadillahfaqih' }, { 'name': 'Farizal Setya A I', 'username': 'farizalfrizzy12' }, { 'name': 'Abdillah Faiz', 'username': 'abdillahfaiz' }, { 'name': 'Fernosha', 'username': 'fernosa12' }, { 'name': 'Agung Saputro', 'username': 'BisaAgung' }, { 'name': 'Aldi', 'username': 'mostsinz' }, { 'name': 'Aswin A', 'username': 'aswinadi' }, { 'name': 'Taukhid', 'username': 'taukhidajin' }, { 'name': 'M. Zulkarnaen', 'username': 'magerngulik' }, { 'name': 'aditiya Sardi', 'username': 'aditiyasardi' }, { 'name': 'syamsul maarif', 'username': 'msyamsul725' }, { 'name': 'rayhan febriansyah', 'username': 'cyberDev890' }, { 'name': 'Robert P', 'username': 'bertDev-rpn' }, { 'name': 'Fikri', 'username': 'fikrichairulazmi' }, { 'name': 'Alvin', 'username': 'alvinwatner' }, { 'name': 'Adit Prasetia', 'username': 'adit3455' }, { 'name': 'Yonattan', 'username': 'lie16' }, { 'name': 'Fajar ', 'username': 'hafizhfattah' }, { 'name': 'Fahmi Feb :', 'username': 'Fahmi1599' }, { 'name': 'Rezza :', 'username': 'septiansyah04' }, { 'name': 'Fatih :', 'username': 'Fatihr257' }, { 'name': 'Zelda Ababil :', 'username': 'zeldaababil19' }, { 'name': 'Ridwan hanif', 'username': 'nickridwan' }, { 'name': 'Muhammad Rayyaan :', 'username': 'RayyanFv' }, { 'name': 'Ferry S :', 'username': 'ownersikom' }, { 'name': 'Novian', 'username': 'fleetimee' }, { 'name': 'Muhammad Rizky -', 'username': 'rizkyraihan44' }, { 'name': 'M. Syamsul arifin', 'username': 'msarifin' }, { 'name': 'Farid Kharisudin', 'username': 'Faridkharisudin' }, { 'name': 'Randho Bagaskara', 'username': 'RandhoB' }, { 'name': 'Hilman Ramdhani', 'username': 'hilman117' }, { 'name': 'Ari', 'username': 'arieLampar' }, { 'name': 'Eka Widiatno', 'username': 'eawidiatno' }, { 'name': 'Thimoty Daud K', 'username': 'tdaku' }, { 'name': 'L Wahyu Hardininggrat', 'username': 'ningrat' }, { 'name': 'Yosua Elwistio Malau', 'username': 'cuatiawww' }, { 'name': 'Maorid Manarul H', 'username': 'maodaaa' }, { 'name': 'Dedi', 'username': 'dedizainal11' }, { 'name': 'Haeruddin', 'username': 'haeruddinteknologi' }, { 'name': 'Taufiq D. Cahyono', 'username': 'taufiqjack' }, { 'name': 'Yusuf', 'username': 'Kuuhaku7' }, { 'name': 'Edi mr', 'username': 'Edi%20Mulyadi%20Rosdiman' }, { 'name': 'Ripki Hamdi', 'username': 'ripkihamdi' }, { 'name': 'Tri Agung', 'username': 'chisez06' }, { 'name': 'Lucky Maulana', 'username': 'LuckyMaulana24' }, { 'name': 'Achriyatul Setyorini', 'username': 'AchriyatulS' }, { 'name': 'Muhamad Fhebry', 'username': 'fhebry23' }, { 'name': 'Tsaqib Arsalan', 'username': 'tsaqib73' }, { 'name': 'Miftahul Khoir', 'username': 'FathHaq' }, { 'name': 'Andri', 'username': 'andrisilaban' }, { 'name': 'Egit', 'username': 'egitheri' }, { 'name': 'Ahmad Faqih', 'username': 'danthz2' }, { 'name': 'Kresna Bimantara', 'username': 'bimbimzzz' }, { 'name': 'Teguh Susanto', 'username': 'teguhsusanto2304' }, { 'name': 'Surya', 'username': 'HarunSH' }, { 'name': 'Ahmad Hidayat', 'username': 'AhmadHidayat120402' }, { 'name': 'Naufal Marzuk Mulyo Saputra', 'username': 'naufalmms' }, { 'name': 'Rangga Wardhana Prasetyo', 'username': 'RanggaWP25' }, { 'name': 'Windy S', 'username': 'azkajihan09' }, { 'name': 'Gema Yoeda', 'username': 'gmayoeda' }, { 'name': 'Khoirul fahmi', 'username': 'kfahmi77' }, { 'name': 'Mutia', 'username': 'mutiakk' }, { 'name': 'Dimas Farid', 'username': 'Manculix' }, { 'name': 'Adam', 'username': 'adamshaq' }, { 'name': 'Ringga Syihabbudin', 'username': 'Ringgasyihabb39' }, { 'name': 'Asrafil', 'username': 'asrafilll' }, { 'name': 'Yordan Baniara', 'username': 'yordanb' }, { 'name': 'Udin', 'username': 'udindn' }, { 'name': 'Eka', 'username': '0xaN0n' }, { 'name': 'Arrachmad Nur Fauzie', 'username': 'fauzieit' }, { 'name': 'Suri Suryanto', 'username': 'surisuryanto' }, { 'name': 'Adnan Zain', 'username': 'gbadnanzain' }, { 'name': 'Fauzi Nur Irfan', 'username': 'fauzinurirfan23' }, { 'name': 'Hangga', 'username': 'hanggakristanto' }, { 'name': 'Yusman', 'username': 'yusmnn' }, { 'name': 'Rio Ferdian', 'username': 'riofrdn16' }, { 'name': 'Azkia', 'username': 'AzkiaFikrilM' }, { 'name': 'Gunadi Pratama Sulistiawan', 'username': 'gndsulistiawan' }, { 'name': 'Yuko', 'username': 'yukofland' }, { 'name': 'I Made setiawan', 'username': 'made-setiawan' }, { 'name': 'Agus Sarjuni', 'username': 'agus.sarjuni' },
+        ];
+
+
+        async function loadData(username) {
+            return await axios.get(
+                `https://www.codewars.com/api/v1/users/${username}`
+            );
+        }
+
+        async function main() {
+            users = users.splice(0, 5);
+            for (var i = 0; i < users.length; i++) {
+                var item = users[i];
+                var response = await loadData(item["username"]);
+                console.log(`${item["username"]} start`);
+                console.log(response);
+
+                item["honor"] = response.data["honor"];
+                if (response.data?.ranks?.languages?.dart != null) {
+                    item["dart_kyu"] = response.data["ranks"]["languages"]["dart"]["rank"];
+                    item["dart_score"] = response.data["ranks"]["languages"]["dart"]["score"];
+                }
+                console.log(`${item["username"]} success`);
+                console.log("---");
+
+                item["honor"] = item["honor"] ?? 0;
+                item["dart_kyu"] = item["dart_kyu"] ?? 0;
+                item["dart_score"] = item["dart_score"] ?? 0;
+            }
+
+            var sortedUsers = users.sort((a, b) => b.dart_score - a.dart_score);
+            console.log(sortedUsers);
+
+            for (var i = 0; i < sortedUsers.length; i++) {
+                var item = sortedUsers[i];
+                $("#main-table tbody").append(`
+                    <tr>
+                        <td>${item["name"]}</td>
+                        <td>${item["honor"]}</td>
+                        <td>${item["dart_kyu"]}</td>
+                        <td>${item["dart_score"]}</td>
+                    </tr>
+                `);
+            }
+        }
+
+        main();
+
+
+    </script>
 </body>
 
 </html>
