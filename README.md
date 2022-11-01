@@ -1,6 +1,7 @@
-# Flutter User Group Indonesia
+# FUGI - Flutter User Group Indonesia
 
 <img src="https://github.com/fugindo/fugi-repo/blob/main/logo.png?raw=true" style="width: 160px;"/>
+
 ### Rank Codewars
 ---
 https://tinyurl.com/fugi-rank
