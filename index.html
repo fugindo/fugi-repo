@@ -26,7 +26,7 @@
                             <th>Dart (Score)</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="main-tbody">
                     </tbody>
                 </table>
             </div>
@@ -36,7 +36,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script>
         // https://www.codewars.com/api/v1/users/denyocrworld
         var users = [
@@ -57,7 +56,8 @@
 
             for (var i = 0; i < sortedUsers.length; i++) {
                 var item = sortedUsers[i];
-                $("#main-table tbody").append(`
+                document.getElementById("main-tbody").innerHTML +=
+                    `
                     <tr>
                         <td>${i + 1}</td>
                         <td style='text-align: left;'>${item["name"]}</td>
@@ -65,7 +65,7 @@
                         <td>${item.dart_kyu}</td>
                         <td>${item.dart_score}</td>
                     </tr>
-                `);
+                `;
             }
         }
 
