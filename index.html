@@ -45,12 +45,9 @@
 
 
         async function loadData(username) {
-            var response = await $.ajax({
-                url: `https://www.codewars.com/api/v1/users/${username}`,
-                type: "GET",
-                dataType: 'json'
-            });
-            return response;
+            var response = await fetch(`https://www.codewars.com/api/v1/users/${username}`);
+            var obj = await response.json();
+            return obj;
         }
 
         var fetchedCount = 0;
@@ -64,9 +61,9 @@
                     <tr>
                         <td>${i + 1}</td>
                         <td style='text-align: left;'>${item["name"]}</td>
-                        <td>${item["honor"]}</td>
-                        <td>${item["dart_kyu"]}</td>
-                        <td>${item["dart_score"]}</td>
+                        <td>${item.honor}</td>
+                        <td>${item.dart_kyu}</td>
+                        <td>${item.dart_score}</td>
                     </tr>
                 `);
             }
@@ -83,7 +80,7 @@
 
                     var rowItem = users[index];
 
-                    rowItem["honor"] = response?.honor ?? 0;
+                    rowItem["honor"] = response.honor ?? 0;
                     if (response?.ranks?.languages?.dart != null) {
                         rowItem["dart_kyu"] = response.ranks.languages.dart.rank;
                         rowItem["dart_score"] = response.ranks.languages.dart.score;
